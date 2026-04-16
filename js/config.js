@@ -22,10 +22,39 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+        yingshi1: {
+        api: 'https://jx.jsonplayer.com/player/api.php?url=',
+        name: '解析源1',
+        adult: false
+    },
+    yingshi2: {
+        api: 'https://www.ckmov.vip/api.php/provide/vod',
+        name: 'CK影视',
+        adult: false
+    },
+    yingshi3: {
+        api: 'https://api.61g.tv/api.php/provide/vod',
+        name: '61影视',
+        adult: false
+    },
+    // === 直播类（稳定源） ===
+    live1: {
+        api: 'https://live.911cf.com/api/live/list',
+        name: '911直播',
+        adult: false,
+        type: 'live'
+    },
+    live2: {
+        api: 'https://www.tvbox1.com/api.php/provide/live',
+        name: 'TVBox直播',
+        adult: false,
+        type: 'live'
+    },
+    live3: {
+        api: 'https://api.bilibili.com/x/player/playurl?cid=252106241&bvid=BV1xx411c7m8&qn=116',
+        name: 'B站测试直播',
+        adult: false,
+        type: 'live'
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
