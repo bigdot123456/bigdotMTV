@@ -27,6 +27,13 @@ const API_SITES = {
         name: '解析源1',
         adult: false
     },
+
+         yingshi2: {
+        api: 'http://xhztv.top/tvbox.txt',
+        name: '解析源ab',
+        adult: false
+    },   
+        
     yingshi2: {
         api: 'https://www.ckmov.vip/api.php/provide/vod',
         name: 'CK影视',
@@ -44,6 +51,13 @@ const API_SITES = {
         adult: false,
         type: 'live'
     },
+       live1a: {
+        api: ' https://live.zbds.top/tv/iptv4.m3u',
+        name: '911直播',
+        adult: false,
+        type: 'live'
+    },
+   
     live2: {
         api: 'https://www.tvbox1.com/api.php/provide/live',
         name: 'TVBox直播',
